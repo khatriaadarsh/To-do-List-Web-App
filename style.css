@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(112, 181, 184);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.main {
+  background-color: rgb(4, 206, 206);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 55vw;
+  border-radius: 10px;
+}
+
+.main input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  width: 20vw;
+}
+
+.main #add-task-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(112, 202, 202);
+}
+#add-task-btn:hover {
+  background-color: rgb(12, 139, 139);
+  border: 1px solid;
+  color: white;
+  cursor: pointer;
+}
+.main #delete-all-task-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(112, 202, 202);
+}
+
+#delete-all-task-btn:hover {
+  background-color: rgb(12, 139, 139);
+  border: 1px solid;
+  cursor: pointer;
+  color: white;
+}
+h1 {
+  text-align: center;
+  margin: 10px 0px;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
+  margin: 10px 0px;
+  text-decoration: underline;
+}
+
+#list {
+  background-color: rgb(4, 206, 206);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#list li {
+  font-size: 21px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#list button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(112, 202, 202);
+}
+#list button:hover {
+  background-color: rgb(12, 139, 139);
+  border: 1px solid;
+  cursor: pointer;
+  color: white;
+}
